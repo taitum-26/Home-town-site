@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+    background: linear-gradient( #fdf0d5 ,#a2d2ff);
+    font-family: "Original Surfer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #023047;
+}
+h1, h2, h3{
+    text-shadow: 0px 0px 1px black;
+}
+
+.cpt{
+    background-image: url("images/cpt.jpg");
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    border: 5px solid #003049;
+    border-radius: 2%;
+}
+#side{
+    max-width: auto;
+    font-size: ;
+}
+.beach{
+    margin-top: 30px;
+    display: flex;
+    font-size: 30px;
+}
+#img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.TO{
+ color: #023047;   
+ border-bottom: 5px #023047;
+}
+
+.column {
+    float: left;
+    width: 33.32%;
+    max-height: 300px;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.row{
+    margin: auto;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: auto;
+}
+.move{
+    margin-top: 60px;
+}
+.where{
+    margin: 20px auto;
+    max-width: 700px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/huh.jpg");
+    background-size: cover;
+}
+.where:hover{
+    background-image: url(images/there.webp);
+}
