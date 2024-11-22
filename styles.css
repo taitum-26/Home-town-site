@@ -18,17 +18,16 @@ h1, h2, h3{
     border: 5px solid #003049;
     border-radius: 2%;
 }
-#side{
-    max-width: auto;
 
-}
 .beach{
     margin-top: 30px;
     display: flex;
     font-size: 30px;
 }
-#img{
-    width: 300px;
+.img{
+    background-image: url(images/beach.webp);
+    background-size: cover;
+    width: 2000px;
     height: 300px;
     border-radius: 5%;
 }
