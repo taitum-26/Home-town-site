@@ -75,3 +75,16 @@ h1, h2, h3{
 .where:hover{
     background-image: url(images/there.webp);
 }
+.imigrate{
+    margin: 70px ;
+}
+ul{
+    
+    font-size: 15px;
+    display: inline-block;
+  text-align: center;
+}
+button, input{
+    padding: 5px;
+    border-radius: 5%;
+}
